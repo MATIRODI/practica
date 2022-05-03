@@ -1,44 +1,52 @@
   
+$color:  #a1adef;
+
  header{
-   width: 100%;
-   height: 70PX;
-   background-color: whitesmoke;
+    padding-bottom: 10px;
+    background-color:$color;
+    text-align: center;
+    width: 100%;
+    z-index: 80;
+    float: left;
+    line-height: 1;
+    min-height: 50px;}
  
- }
+   .h1{
+    background-color: $color;
+    justify-content: center;
+      text-align: center;
+      padding-left: 30px;
+      border-radius: 25px;
+      margin: 15px;
+    }
  
- header h1{
-   background-color: whitesmoke;
-   justify-content: center;
-     text-align: center;
-     padding-left: 30px;
-     border-radius: 25px;
-     margin: 15px;
-   }
- 
-  
- 
- h2{
-   text-align: center;
-        padding: 30px;
-         border: 25px;
- }
+    .h2{
+      text-align: center;
+           padding: 30px;
+            border: 25px;
+    }
  
   .principal{
-   margin: auto;
-   width: 50%;
-   justify-content: end;
+   margin:auto;
+    width:50%; 
+    justify-content:end;
  }
  
  .navegacion{
-   position: relative;
-   padding: auto;
-   margin: auto;
-   justify-items: center;
-   text-align: center;
-   width: 80%;
-   height: 90px;
- }
- 
+  
+    padding-top: 3px;
+    padding-bottom: 5px;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    line-height: 1.4;
+    background: rgba(203,44,129,1);
+    background: -moz-linear-gradient(-15deg,rgba(203,44,129,1) 0%,rgba(138,83,234,1) 51%,rgba(120,170,236,1) 100%);
+    background: -webkit-gradient(left top,right bottom,color-stop(0%,rgba(203,44,129,1)),color-stop(51%,rgba(138,83,234,1)),color-stop(100%,rgba(120,170,236,1)));
+    background: -webkit-linear-gradient(-15deg,rgba(203,44,129,1) 0%,rgba(138,83,234,1) 51%,rgba(120,170,236,1) 100%);
+    background: -o-linear-gradient(-15deg,rgba(203,44,129,1) 0%,rgba(138,83,234,1) 51%,rgba(120,170,236,1) 100%);
+    background: -ms-linear-gradient(-15deg,rgba(203,44,129,1) 0%,rgba(138,83,234,1) 51%,rgba(120,170,236,1) 100%);
+    background: linear-gradient(135deg,rgba(203,44,129,1) 0%,rgba(138,83,234,1) 51%,rgba(120,170,236,1) 100%);}
  
  
  .card-img-top{
@@ -62,9 +70,10 @@
  }
  
  
- .eleccion{
-       text-align: center;
-     padding-bottom: 15px;
+ .eleccion{ margin:auto;
+  width:50%; 
+  justify-content:end;
+       
    }
  
  .no{
@@ -79,8 +88,16 @@
     width: 90%;
  }
  
- 
-  
+ .masVendidos{margin: auto;
+  padding: auto;
+ max-width: 20%;
+ justify-content: end;
+}
+
+.contenedor{
+  padding: auto;
+ width: 20%;
+ justify-content: end;}
  
  .mainNosotros{
    height: 80vh;
